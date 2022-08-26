@@ -1,84 +1,56 @@
 body {
     font-family: sans-serif;
-    background-color: black;
+    background-color: bisque;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: ;
+    padding-top: 30px;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #35d2ab;
+    color: blue;
+    padding: 10px;
+}
+
+.posts {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.post {
+    width: 250px;
+    border: 1px solid blue;
+    padding: 30px;
+    border-radius: 30px;
     margin-bottom: 20px;
+    background-color: royalblue;
 }
 
-.button {
-    background-color: #36bbce;
+span {
     color: white;
-    text-decoration: none;
-    padding: 15px;
-    font-size: 24px;
-    border-radius: 10px;
 }
 
-nav {
-    display: flex;
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
-    padding: 25px 100px 25px 95px;
-    justify-content: space-between;
-}
-
-.nav-link {
-    font-size: 24px;
-    color: #41DB00;
-    text-decoration: none;
-}
-
-h1 {
-    text-align: center;
-    color: white;
-    font-size: 36px;
-    margin-top: ;
-    margin-bottom: ;
-}
-
-p {
-    font-size: 24px;
-}
-
-.info {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1100px;
-    margin: 0px;
-}
-
-article {
-    background-color: white;
-    padding:15px;
+.post:hover {
+    font-size: 30px;
     width: 400px;
-    margin: ;
+    padding: 60px;
+    border: 3px solid blue;
 }
 
-.article-but {
-    text-decoration: none;
-    background-color: grey;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    padding: 10px 75px 10px 75px;
+.heading {
+    font-size: 30px;
 }
 
 footer {
-    display: flex;
-    background-color: white;
-    padding: ;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #ECDB9E;
+    padding: 0px;
+    font-size: 20px;
 }
-
-footer a {
-    margin-right: ;
-}
-
-footer p {
-    font-size: 24px;
-}
-
